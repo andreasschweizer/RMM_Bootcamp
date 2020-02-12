@@ -1,0 +1,1 @@
+New-AtwsTicketNote -TicketID (Get-AtwsTicket -TicketNumber $TicketNumber).id -Title $title -Description $body -NoteType "Interne Notizen" -Publish "Internal Project Team"
